@@ -1,0 +1,7 @@
+<h1>Users and Interests</h1>
+
+<ul>
+  <% @users.keys.each do |name| %>
+    <li><a href="/<%=name%>"><%=name%></a></li> 
+  <% end %>
+</ul>
